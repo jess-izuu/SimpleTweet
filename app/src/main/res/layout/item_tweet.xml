@@ -35,4 +35,10 @@
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@id/ivProfileImage"
         android:text="This is my tweet!" />
+
+    <TextView
+        android:id="@+id/timeStamp"
+        android:layout_height="10dp"
+        android:layout_toRightOf="@id/tvScreenName"
+        android:text="timestamp" />
 </RelativeLayout>
