@@ -38,8 +38,8 @@
 
     <TextView
         android:id="@+id/timeStamp"
-        android:layout_width="5dp"
-        android:layout_height="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_toRightOf="@id/tvScreenName"
         android:text="timestamp" />
 
