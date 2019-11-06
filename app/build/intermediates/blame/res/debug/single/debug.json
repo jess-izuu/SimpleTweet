@@ -1428,6 +1428,10 @@
         "source": "/Users/jizumi/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "/Users/jizumi/Projects/SimpleTweet/app/build/intermediates/res/merged/debug/menu_menu_main.xml.flat",
+        "source": "/Users/jizumi/Projects/SimpleTweet/app/src/main/res/menu/menu_main.xml"
+    },
+    {
         "merged": "/Users/jizumi/Projects/SimpleTweet/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "/Users/jizumi/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
