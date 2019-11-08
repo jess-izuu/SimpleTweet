@@ -1,4 +1,4 @@
-#Fri Nov 08 13:42:29 EST 2019
+#Fri Nov 08 15:35:34 EST 2019
 base.0=/Users/jizumi/Projects/SimpleTweet/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
