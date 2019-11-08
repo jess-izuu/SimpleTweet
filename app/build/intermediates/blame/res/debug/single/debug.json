@@ -224,6 +224,10 @@
         "source": "/Users/jizumi/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_textfield_search_material.xml"
     },
     {
+        "merged": "/Users/jizumi/Projects/SimpleTweet/app/build/intermediates/res/merged/debug/layout_activity_compose.xml.flat",
+        "source": "/Users/jizumi/Projects/SimpleTweet/app/src/main/res/layout/activity_compose.xml"
+    },
+    {
         "merged": "/Users/jizumi/Projects/SimpleTweet/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/jizumi/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
