@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".ComposeActivity">
 
+
     <EditText
         android:id="@+id/etCompose"
         android:layout_width="match_parent"
@@ -24,8 +25,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/etCompose"
-        android:hint="140 character limit"
-        android:maxLength="140" />
+        android:hint="140 character limit" />
 
     <Button
         android:id="@+id/btnTweet"

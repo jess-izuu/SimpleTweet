@@ -2,6 +2,8 @@ package com.codepath.apps.restclienttemplate;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -18,13 +20,12 @@ import org.parceler.Parcels;
 
 import okhttp3.Headers;
 
-public class ComposeActivity extends AppCompatActivity {
+public class ComposeActivity<mTextEditorWatcher> extends AppCompatActivity {
 
     public static final String TAG = "ComposeActivity";
     public static final int MAX_TWEET_LENGTH = 140;
     EditText etCompose;
     Button btnTweet;
-
     TwitterClient client;
 
     @Override
@@ -36,6 +37,26 @@ public class ComposeActivity extends AppCompatActivity {
 
         etCompose = findViewById(R.id.etCompose);
         btnTweet = findViewById(R.id.btnTweet);
+
+        // Character counter
+        final EditText etValue = (EditText) findViewById(R.id.etValue);
+
+        TextWatcher mTextEditorWatcher = new TextWatcher() {
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+            }
+
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                //This sets a textview to the current length
+                int length = etValue.length();
+                String convert = String.valueOf(length);
+                etCompose.setText(convert);
+            }
+
+            public void afterTextChanged(Editable s) {
+            }
+        };
+
+        etValue.addTextChangedListener(mTextEditorWatcher);
 
         // Set click listener on button
         btnTweet.setOnClickListener(new View.OnClickListener() {
