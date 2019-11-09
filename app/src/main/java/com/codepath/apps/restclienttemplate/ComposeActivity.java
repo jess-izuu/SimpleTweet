@@ -47,9 +47,7 @@ public class ComposeActivity<mTextEditorWatcher> extends AppCompatActivity {
 
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 //This sets a textview to the current length
-                int length = etValue.length();
-                String convert = String.valueOf(length);
-                etCompose.setText(convert);
+                etCompose.setText(String.valueOf(s.length()));
             }
 
             public void afterTextChanged(Editable s) {

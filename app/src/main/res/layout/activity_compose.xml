@@ -9,7 +9,7 @@
 
 
     <EditText
-        android:id="@+id/etCompose"
+        android:id="@+id/etValue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
@@ -21,10 +21,10 @@
         android:minLines="5" />
 
     <EditText
-        android:id="@+id/etValue"
+        android:id="@+id/etCompose"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/etCompose"
+        android:layout_alignRight="@+id/etValue"
         android:hint="140 character limit" />
 
     <Button
